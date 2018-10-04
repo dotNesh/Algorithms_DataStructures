@@ -1,0 +1,23 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb-base",
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "rules": {
+        "indent": ["error", 2],
+        "comma-dangle": 0,
+        "curly": ["error", "multi-line"],
+        "no-plusplus": [2, { "allowForLoopAfterthoughts" : true }],
+        "consistent-return": 0,
+        "no-param-reassign": 0,
+        "camelcase": 1,
+        "no-undef": 0
+    }
+  }
